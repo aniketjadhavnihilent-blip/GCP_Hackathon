@@ -4,10 +4,4 @@ GCP Hackathon/
   models/
     staging/
       stg_employees.sql
-      stg_availability.sql
-      stg_shift_defs.sql
-      stg_demand.sql
-      stg_assignments_history.sql
-    marts/
-      roster_features.sql
-      demand_forecast.sql
+     
