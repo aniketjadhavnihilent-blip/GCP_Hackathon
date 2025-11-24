@@ -1,7 +1,6 @@
-GCP Hackathon/
-  dbt_project.yml
-  profiles.yml (locally)
-  models/
-    staging/
-      stg_employees.sql
-     
+name: 'GCP Hackathon'
+version: '1.0'
+profile: default
+config-version: 2
+model-paths: ["models/staging"]
+target-path: "target"
