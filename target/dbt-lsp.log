@@ -1,0 +1,418 @@
+==================== 2025-11-24 06:54:12.402245 | 4fb33659-f22b-4757-8980-1d3de10f110e ====================
+06:54:12.402639 [info ]: Starting dbt LSP server
+06:54:12.402800 [info ]: Connecting to LSP client on port 8000
+06:54:12.416402 [info ]: Successfully connected to LSP client
+06:54:12.416427 [info ]: Creating LSP service...
+06:54:12.514940 [info ]: Creating LSP server...
+06:54:12.514975 [info ]: Starting LSP server...
+07:00:14.640940 [info ]: Cached model count updated: 1 models (estimate)
+07:00:14.698295 [info ]: Cached model count updated: 1 models (accurate)
+07:00:15.545804 [info ]: Cached model count updated: 1 models (estimate)
+07:00:15.611338 [info ]: Cached model count updated: 1 models (accurate)
+07:00:19.505928 [error]: dbt0214: Table 'project.poc_roster.employees' is missing in remote
+  --> models\staging\stg_employees.sql:2:17
+07:00:19.511781 [info ]: Cached model count updated: 1 models (accurate)
+07:01:36.273921 [info ]: Cached model count updated: 1 models (estimate)
+07:01:36.756951 [info ]: Cached model count updated: 1 models (estimate)
+07:01:36.807654 [info ]: Cached model count updated: 1 models (accurate)
+07:01:37.696438 [error]: dbt0214: Table 'project.poc_roster.employees' is missing in remote
+  --> models\staging\stg_employees.sql:2:17
+07:01:37.702331 [info ]: Cached model count updated: 1 models (accurate)
+07:01:50.706702 [info ]: Cached model count updated: 2 models (estimate)
+07:01:51.052515 [info ]: Cached model count updated: 2 models (estimate)
+07:01:51.114503 [info ]: Cached model count updated: 2 models (accurate)
+07:01:51.992575 [error]: dbt0214: Table 'project.poc_roster.employees' is missing in remote
+  --> models\staging\stg_employees.sql:2:17
+07:01:51.998715 [info ]: Cached model count updated: 2 models (accurate)
+07:03:36.959855 [info ]: Cached model count updated: 3 models (estimate)
+07:03:37.305632 [info ]: Cached model count updated: 3 models (estimate)
+07:03:37.362669 [info ]: Cached model count updated: 3 models (accurate)
+07:03:38.201950 [error]: dbt0214: Table 'project.poc_roster.employees' is missing in remote
+  --> models\staging\stg_employees.sql:2:17
+07:03:38.212866 [info ]: Cached model count updated: 3 models (accurate)
+07:04:16.013083 [info ]: Cached model count updated: 3 models (estimate)
+07:04:16.035789 [info ]: Cached model count updated: 3 models (accurate)
+07:04:16.036003 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP Hackathon.stg_availability"}
+07:04:16.935713 [error]: dbt8995: Adapter operation was cancelled
+07:04:16.976722 [info ]: Cached model count updated: 3 models (estimate)
+07:04:17.001209 [info ]: Cached model count updated: 3 models (accurate)
+07:04:17.001344 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP Hackathon.stg_availability"}
+07:04:17.899264 [info ]: Cached model count updated: 3 models (accurate)
+07:04:18.214749 [info ]: Cached model count updated: 3 models (estimate)
+07:04:18.238922 [info ]: Cached model count updated: 3 models (accurate)
+07:04:18.239039 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP Hackathon.stg_shift_defs"}
+07:04:19.124480 [error]: dbt8995: Adapter operation was cancelled
+07:04:19.169383 [info ]: Cached model count updated: 3 models (estimate)
+07:04:19.192334 [info ]: Cached model count updated: 3 models (accurate)
+07:04:19.192440 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP Hackathon.stg_shift_defs"}
+07:04:20.106925 [info ]: Cached model count updated: 3 models (accurate)
+07:04:28.282114 [info ]: Cached model count updated: 3 models (estimate)
+07:04:28.302025 [info ]: Cached model count updated: 3 models (accurate)
+07:04:28.302116 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP Hackathon.stg_employees"}
+07:04:29.277870 [error]: dbt8995: Adapter operation was cancelled
+07:04:29.319674 [info ]: Cached model count updated: 3 models (estimate)
+07:04:29.338994 [info ]: Cached model count updated: 3 models (accurate)
+07:04:29.339102 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP Hackathon.stg_employees"}
+07:04:30.300659 [info ]: Cached model count updated: 3 models (accurate)
+08:25:39.782695 [info ]: Cached model count updated: 4 models (estimate)
+08:25:40.276971 [info ]: Cached model count updated: 4 models (estimate)
+08:25:40.336213 [info ]: Cached model count updated: 4 models (accurate)
+08:25:41.355644 [info ]: Cached model count updated: 4 models (accurate)
+08:26:12.080697 [info ]: Cached model count updated: 4 models (estimate)
+08:26:12.105510 [info ]: Cached model count updated: 4 models (accurate)
+08:26:12.105649 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP Hackathon.stg_demand"}
+08:26:12.978416 [error]: dbt8995: Adapter operation was cancelled
+08:26:13.013490 [info ]: Cached model count updated: 4 models (estimate)
+08:26:13.033859 [info ]: Cached model count updated: 4 models (accurate)
+08:26:13.033982 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP Hackathon.stg_demand"}
+08:26:13.905937 [info ]: Cached model count updated: 4 models (accurate)
+08:35:21.296520 [info ]: Cached model count updated: 5 models (estimate)
+08:35:21.923803 [info ]: Cached model count updated: 5 models (estimate)
+08:35:22.029869 [info ]: Cached model count updated: 5 models (accurate)
+08:35:23.251427 [info ]: Cached model count updated: 5 models (accurate)
+08:35:41.885822 [info ]: Cached model count updated: 5 models (estimate)
+08:35:41.957051 [info ]: Cached model count updated: 5 models (accurate)
+08:35:41.957169 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP Hackathon.stg_assignments_history"}
+08:35:42.259843 [error]: dbt8995: Adapter operation was cancelled
+08:35:42.329613 [info ]: Cached model count updated: 5 models (estimate)
+08:35:42.428308 [info ]: Cached model count updated: 5 models (accurate)
+08:35:42.428667 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP Hackathon.stg_assignments_history"}
+08:35:43.403974 [info ]: Cached model count updated: 5 models (accurate)
+08:53:49.134896 [info ]: Cached model count updated: 5 models (estimate)
+08:53:49.135319 [info ]: Cached model count updated: 5 models (accurate)
+10:42:23.231416 [info ]: Cached model count updated: 8 models (estimate)
+10:42:24.635328 [info ]: Cached model count updated: 8 models (estimate)
+10:42:24.925002 [error]: dbt1005: Ref 'GCP Hackathon.staging.stg_demand' not found in project. Searched for 'GCP-Hackathon.GCP Hackathon.staging.stg_demand, GCP Hackathon.staging.stg_demand'
+  --> models\marts\demand_forecast.sql:1:15
+10:42:24.932094 [info ]: Cached model count updated: 8 models (accurate)
+10:42:25.515236 [error]: dbt1501: Failed to render SQL not a key type: ref not found for package: GCP-Hackathon, model: GCP Hackathon.staging.stg_demand, version: None
+(in models\marts\demand_forecast.sql:1:15)
+  --> models\marts\demand_forecast.sql:1:15
+10:42:27.311298 [error]: dbt0101: mismatched input '(' expecting one of <EOF>, ';'
+  --> models\marts\roster_features.sql:22:25 (target\compiled\models\marts\roster_features.sql:22:25)
+10:42:27.351825 [info ]: Cached model count updated: 8 models (accurate)
+10:42:37.226631 [info ]: Cached model count updated: 8 models (estimate)
+10:42:39.187563 [info ]: Cached model count updated: 8 models (estimate)
+10:42:39.338323 [error]: dbt1005: Ref 'GCP Hackathon.staging.stg_demand' not found in project. Searched for 'GCP-Hackathon.GCP Hackathon.staging.stg_demand, GCP Hackathon.staging.stg_demand'
+  --> models\marts\demand_forecast.sql:1:15
+10:42:39.342209 [info ]: Cached model count updated: 8 models (accurate)
+10:42:39.729201 [error]: dbt1501: Failed to render SQL not a key type: ref not found for package: GCP-Hackathon, model: GCP Hackathon.staging.stg_demand, version: None
+(in models\marts\demand_forecast.sql:1:15)
+  --> models\marts\demand_forecast.sql:1:15
+10:42:40.718442 [error]: dbt0101: mismatched input '(' expecting one of <EOF>, ';'
+  --> models\marts\roster_features.sql:22:25 (target\compiled\models\marts\roster_features.sql:22:25)
+10:42:40.731076 [info ]: Cached model count updated: 8 models (accurate)
+10:43:45.943933 [info ]: Cached model count updated: 8 models (estimate)
+10:43:46.076824 [info ]: Cached model count updated: 8 models (accurate)
+10:43:46.112897 [debug]: Incremental compilation - 2 nodes selected: {"model.GCP-Hackathon.demand_forecast", "model.GCP-Hackathon.stg_demand"}
+10:43:46.605179 [info ]: Cached model count updated: 8 models (estimate)
+10:43:46.679886 [info ]: Cached model count updated: 8 models (accurate)
+10:43:46.680528 [debug]: Incremental compilation - 2 nodes selected: {"model.GCP-Hackathon.demand_forecast", "model.GCP-Hackathon.stg_demand"}
+10:43:47.302825 [info ]: Cached model count updated: 8 models (accurate)
+10:47:03.136171 [info ]: Cached model count updated: 8 models (estimate)
+10:47:05.160824 [info ]: Cached model count updated: 8 models (estimate)
+10:47:05.305430 [info ]: Cached model count updated: 8 models (accurate)
+10:47:06.488399 [error]: dbt0101: mismatched input '(' expecting one of <EOF>, ';'
+  --> models\marts\roster_features.sql:22:25 (target\compiled\models\marts\roster_features.sql:22:25)
+10:47:06.499418 [info ]: Cached model count updated: 8 models (accurate)
+10:48:29.191932 [info ]: Cached model count updated: 8 models (estimate)
+10:48:32.396968 [info ]: Cached model count updated: 8 models (estimate)
+10:48:32.565364 [info ]: Cached model count updated: 8 models (accurate)
+10:48:33.828305 [error]: dbt0101: mismatched input '(' expecting one of <EOF>, ';'
+  --> models\marts\roster_features.sql:22:25 (target\compiled\models\marts\roster_features.sql:22:25)
+10:48:33.844185 [info ]: Cached model count updated: 8 models (accurate)
+05:30:58.331704 [info ]: Cached model count updated: 8 models (estimate)
+05:30:58.498611 [info ]: Cached model count updated: 8 models (accurate)
+05:30:58.504430 [debug]: Incremental compilation - 4 nodes selected: {"model.GCP-Hackathon.roster_features", "model.GCP-Hackathon.stg_assignments_history", "model.GCP-Hackathon.stg_availability", "model.GCP-Hackathon.stg_employees"}
+05:30:58.574396 [info ]: Cached model count updated: 8 models (estimate)
+05:30:58.594635 [info ]: Cached model count updated: 8 models (accurate)
+05:30:58.594806 [debug]: Incremental compilation - 4 nodes selected: {"model.GCP-Hackathon.roster_features", "model.GCP-Hackathon.stg_assignments_history", "model.GCP-Hackathon.stg_availability", "model.GCP-Hackathon.stg_employees"}
+05:30:59.006158 [info ]: Cached model count updated: 8 models (accurate)
+05:32:44.431593 [info ]: Cached model count updated: 8 models (estimate)
+05:32:44.470895 [info ]: Cached model count updated: 8 models (accurate)
+05:32:44.471202 [debug]: Incremental compilation - 4 nodes selected: {"model.GCP-Hackathon.roster_features", "model.GCP-Hackathon.stg_assignments_history", "model.GCP-Hackathon.stg_availability", "model.GCP-Hackathon.stg_employees"}
+05:32:44.658666 [error]: dbt0101: mismatched input '(' expecting one of <EOF>, ';'
+  --> models\marts\roster_features.sql:22:25 (target\compiled\models\marts\roster_features.sql:22:25)
+05:32:44.670175 [info ]: Cached model count updated: 8 models (accurate)
+05:32:44.744458 [info ]: Cached model count updated: 8 models (estimate)
+05:32:44.745338 [info ]: Cached model count updated: 8 models (accurate)
+05:34:14.744149 [info ]: Cached model count updated: 8 models (estimate)
+05:34:14.774466 [info ]: Cached model count updated: 8 models (accurate)
+05:34:14.774594 [debug]: Incremental compilation - 4 nodes selected: {"model.GCP-Hackathon.roster_features", "model.GCP-Hackathon.stg_assignments_history", "model.GCP-Hackathon.stg_availability", "model.GCP-Hackathon.stg_employees"}
+05:34:14.984111 [info ]: Cached model count updated: 8 models (accurate)
+05:34:15.058085 [info ]: Cached model count updated: 8 models (estimate)
+05:34:15.058436 [info ]: Cached model count updated: 8 models (accurate)
+==================== 2025-11-26 09:56:27.325538 | 1eb747cb-d953-472f-8d7d-484e2116c552 ====================
+09:56:27.325829 [info ]: Starting dbt LSP server
+09:56:27.326618 [info ]: Connecting to LSP client on port 8000
+09:56:27.345387 [info ]: Successfully connected to LSP client
+09:56:27.345426 [info ]: Creating LSP service...
+09:56:27.522868 [info ]: Creating LSP server...
+09:56:27.522911 [info ]: Starting LSP server...
+09:56:44.490358 [info ]: Cached model count updated: 8 models (estimate)
+09:56:44.609338 [info ]: Cached model count updated: 8 models (accurate)
+09:56:46.298634 [info ]: Cached model count updated: 8 models (accurate)
+10:21:25.658998 [info ]: Cached model count updated: 8 models (estimate)
+10:21:25.664179 [info ]: Cached model count updated: 8 models (accurate)
+10:21:35.121831 [info ]: Cached model count updated: 9 models (estimate)
+10:21:35.500140 [info ]: Cached model count updated: 9 models (estimate)
+10:21:35.613674 [info ]: Cached model count updated: 9 models (accurate)
+10:21:36.958468 [info ]: Cached model count updated: 9 models (accurate)
+10:27:22.249170 [info ]: Cached model count updated: 9 models (estimate)
+10:27:22.283139 [error]: dbt1501: Failed to render SQL unknown function: Jinja macro or function `gcs_csv_to_bq` is unknown
+(in models\landing\load_employees.sql:3:16)
+  --> models\landing\load_employees.sql:3:16
+10:27:22.290868 [info ]: Cached model count updated: 8 models (accurate)
+10:27:22.293296 [debug]: Incremental compilation - 0 nodes selected: {}
+10:27:22.499779 [info ]: Cached model count updated: 8 models (accurate)
+10:27:22.569462 [info ]: Cached model count updated: 9 models (estimate)
+10:27:22.569783 [info ]: Cached model count updated: 8 models (accurate)
+10:41:10.667310 [info ]: Cached model count updated: 9 models (estimate)
+10:41:10.685208 [error]: dbt1501: Failed to render SQL unknown function: Jinja macro or function `gcs_csv_to_bq` is unknown
+(in models\landing\load_employees.sql:3:16)
+  --> models\landing\load_employees.sql:3:16
+10:41:10.688328 [info ]: Cached model count updated: 8 models (accurate)
+10:41:10.688500 [debug]: Incremental compilation - 0 nodes selected: {}
+10:41:10.869465 [info ]: Cached model count updated: 8 models (accurate)
+10:41:10.997015 [info ]: Cached model count updated: 9 models (estimate)
+10:41:10.997351 [info ]: Cached model count updated: 8 models (accurate)
+10:41:12.474639 [info ]: Cached model count updated: 9 models (estimate)
+10:41:12.496972 [error]: dbt1501: Failed to render SQL unknown function: Jinja macro or function `gcs_csv_to_bq` is unknown
+(in models\landing\load_employees.sql:3:16)
+  --> models\landing\load_employees.sql:3:16
+10:41:12.499998 [info ]: Cached model count updated: 8 models (accurate)
+10:41:12.500140 [debug]: Incremental compilation - 0 nodes selected: {}
+10:41:12.679002 [info ]: Cached model count updated: 8 models (accurate)
+10:41:12.795618 [info ]: Cached model count updated: 9 models (estimate)
+10:41:12.795988 [info ]: Cached model count updated: 8 models (accurate)
+10:45:23.864922 [info ]: Cached model count updated: 9 models (estimate)
+10:45:23.883415 [error]: dbt1501: Failed to render SQL unknown function: Jinja macro or function `gcs_csv_to_bq` is unknown
+(in models\landing\load_employees.sql:3:16)
+  --> models\landing\load_employees.sql:3:16
+10:45:23.885852 [info ]: Cached model count updated: 8 models (accurate)
+10:45:23.885975 [debug]: Incremental compilation - 0 nodes selected: {}
+10:45:24.082645 [info ]: Cached model count updated: 8 models (accurate)
+10:45:24.195547 [info ]: Cached model count updated: 9 models (estimate)
+10:45:24.195965 [info ]: Cached model count updated: 8 models (accurate)
+10:46:46.079597 [info ]: Cached model count updated: 9 models (estimate)
+10:46:46.096872 [error]: dbt1501: Failed to render SQL unknown function: Jinja macro or function `gcs_csv_to_bq` is unknown
+(in models\landing\load_employees.sql:1:1)
+  --> models\landing\load_employees.sql:1:1
+10:46:46.099216 [info ]: Cached model count updated: 8 models (accurate)
+10:46:46.099333 [debug]: Incremental compilation - 0 nodes selected: {}
+10:46:46.270016 [info ]: Cached model count updated: 8 models (accurate)
+10:46:46.418751 [info ]: Cached model count updated: 9 models (estimate)
+10:46:46.419311 [info ]: Cached model count updated: 8 models (accurate)
+10:55:22.520380 [info ]: Cached model count updated: 9 models (estimate)
+10:55:22.520740 [info ]: Cached model count updated: 8 models (accurate)
+10:55:49.657130 [info ]: Cached model count updated: 9 models (estimate)
+10:55:50.047697 [info ]: Cached model count updated: 9 models (estimate)
+10:55:50.098148 [error]: dbt1501: Failed to render SQL unknown function: Jinja macro or function `gcs_csv_to_bq` is unknown
+(in models\landing\load_employees.sql:1:1)
+  --> models\landing\load_employees.sql:1:1
+10:55:50.109689 [info ]: Cached model count updated: 8 models (accurate)
+10:55:51.510955 [info ]: Cached model count updated: 8 models (accurate)
+10:55:56.871373 [info ]: Cached model count updated: 9 models (estimate)
+10:55:57.152886 [info ]: Cached model count updated: 9 models (estimate)
+10:55:57.950797 [info ]: Cached model count updated: 9 models (estimate)
+10:55:58.007226 [info ]: Running Load Data from GCS CSV ['gs://bucket/employee.csv'] to table landing.employees
+10:55:58.016487 [info ]: Cached model count updated: 9 models (accurate)
+10:55:58.236281 [info ]: Running Load Data from GCS CSV ['gs://bucket/employee.csv'] to table landing.employees
+10:55:58.257839 [error]: dbt0101: mismatched input 'LOAD' expecting one of <EOF>, 'ALTER', 'ANALYZE', 'BEGIN', 'BREAK', 'CALL', 'CASE' ...
+  --> models\landing\load_employees.sql:1:1 (target\compiled\models\landing\load_employees.sql:4:1)
+10:55:59.141220 [info ]: Cached model count updated: 9 models (accurate)
+11:01:44.831245 [info ]: Cached model count updated: 9 models (estimate)
+11:01:44.849552 [info ]: Running Load Data from GCS CSV ['gs://bucket/employee.csv'] to table landing.employees
+11:01:44.851572 [info ]: Cached model count updated: 9 models (accurate)
+11:01:44.856148 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP-Hackathon.load_employees"}
+11:01:45.022036 [info ]: Running Load Data from GCS CSV ['gs://bucket/employee.csv'] to table landing.employees
+11:01:45.025445 [error]: dbt0101: mismatched input 'LOAD' expecting one of <EOF>, 'ALTER', 'ANALYZE', 'BEGIN', 'BREAK', 'CALL', 'CASE' ...
+  --> models\landing\load_employees.sql:1:1 (target\compiled\models\landing\load_employees.sql:4:1)
+11:01:45.034926 [info ]: Cached model count updated: 9 models (accurate)
+11:01:45.146830 [info ]: Cached model count updated: 9 models (estimate)
+11:01:45.147209 [info ]: Cached model count updated: 9 models (accurate)
+11:02:56.100328 [info ]: Cached model count updated: 9 models (estimate)
+11:02:56.118228 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+11:02:56.132607 [info ]: Cached model count updated: 9 models (accurate)
+11:02:56.132760 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP-Hackathon.load_employees"}
+11:02:56.293894 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+11:02:56.307763 [info ]: Cached model count updated: 9 models (accurate)
+11:02:56.426727 [info ]: Cached model count updated: 9 models (estimate)
+11:02:56.427363 [info ]: Cached model count updated: 9 models (accurate)
+11:31:08.489124 [info ]: Cached model count updated: 9 models (estimate)
+11:31:08.508103 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+11:31:08.511026 [info ]: Cached model count updated: 9 models (accurate)
+11:31:08.511194 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP-Hackathon.load_employees"}
+11:31:08.670353 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+11:31:08.682995 [info ]: Cached model count updated: 9 models (accurate)
+11:31:08.814455 [info ]: Cached model count updated: 9 models (estimate)
+11:31:08.814873 [info ]: Cached model count updated: 9 models (accurate)
+11:31:39.350132 [info ]: Cached model count updated: 10 models (estimate)
+11:31:39.722110 [info ]: Cached model count updated: 10 models (estimate)
+11:31:39.769555 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+11:31:39.779482 [info ]: Cached model count updated: 10 models (accurate)
+11:31:39.958544 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+11:31:41.183445 [info ]: Cached model count updated: 10 models (accurate)
+11:32:09.361602 [info ]: Cached model count updated: 11 models (estimate)
+11:32:09.698070 [info ]: Cached model count updated: 11 models (estimate)
+11:32:09.747398 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+11:32:09.754494 [info ]: Cached model count updated: 11 models (accurate)
+11:32:09.925792 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+11:32:10.885938 [info ]: Cached model count updated: 11 models (accurate)
+11:32:24.068603 [info ]: Cached model count updated: 12 models (estimate)
+11:32:24.439708 [info ]: Cached model count updated: 12 models (estimate)
+11:32:24.489900 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+11:32:24.498582 [info ]: Cached model count updated: 12 models (accurate)
+11:32:24.668591 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+11:32:25.529373 [info ]: Cached model count updated: 12 models (accurate)
+11:33:30.194063 [info ]: Cached model count updated: 13 models (estimate)
+11:33:30.542103 [info ]: Cached model count updated: 13 models (estimate)
+11:33:30.593950 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+11:33:30.604163 [info ]: Cached model count updated: 13 models (accurate)
+11:33:30.769548 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+11:33:32.391699 [info ]: Cached model count updated: 13 models (accurate)
+11:34:20.371926 [info ]: Cached model count updated: 13 models (estimate)
+11:34:20.394790 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+11:34:20.397715 [info ]: Cached model count updated: 13 models (accurate)
+11:34:20.397926 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP-Hackathon.load_availability"}
+11:34:20.573850 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+11:34:20.583994 [info ]: Cached model count updated: 13 models (accurate)
+11:34:20.695751 [info ]: Cached model count updated: 13 models (estimate)
+11:34:20.696320 [info ]: Cached model count updated: 13 models (accurate)
+11:35:12.474406 [info ]: Cached model count updated: 13 models (estimate)
+11:35:12.493281 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+11:35:12.496260 [info ]: Cached model count updated: 13 models (accurate)
+11:35:12.496418 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP-Hackathon.load_shift_defs"}
+11:35:12.648110 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+11:35:12.659074 [info ]: Cached model count updated: 13 models (accurate)
+11:35:12.777171 [info ]: Cached model count updated: 13 models (estimate)
+11:35:12.777488 [info ]: Cached model count updated: 13 models (accurate)
+11:38:52.328346 [info ]: Cached model count updated: 13 models (estimate)
+11:38:52.748423 [info ]: Cached model count updated: 13 models (estimate)
+11:38:52.797110 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+11:38:52.798266 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+11:38:52.799095 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+11:38:52.808458 [info ]: Cached model count updated: 13 models (accurate)
+11:38:52.989179 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+11:38:52.989167 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+11:38:52.989846 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+11:38:54.152073 [info ]: Cached model count updated: 13 models (accurate)
+05:09:13.057665 [info ]: Cached model count updated: 14 models (estimate)
+05:09:13.536668 [info ]: Cached model count updated: 14 models (estimate)
+05:09:13.685796 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+05:09:13.689556 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+05:09:13.690411 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+05:09:13.713804 [info ]: Cached model count updated: 14 models (accurate)
+05:09:13.968176 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+05:09:13.968418 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+05:09:13.968335 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+05:09:15.096512 [info ]: Cached model count updated: 14 models (accurate)
+05:10:28.619593 [info ]: Cached model count updated: 14 models (estimate)
+05:10:28.659850 [info ]: Cached model count updated: 14 models (accurate)
+05:10:28.665134 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP-Hackathon.aggregated_Sales"}
+05:10:28.903941 [error]: dbt8995: Adapter operation was cancelled
+05:10:28.955539 [info ]: Cached model count updated: 14 models (estimate)
+05:10:28.993706 [info ]: Cached model count updated: 14 models (estimate)
+05:10:29.019394 [info ]: Cached model count updated: 14 models (accurate)
+05:10:29.019682 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP-Hackathon.aggregated_Sales"}
+05:10:29.257178 [info ]: Cached model count updated: 14 models (estimate)
+05:10:29.293368 [info ]: Cached model count updated: 14 models (estimate)
+05:10:29.318964 [info ]: Cached model count updated: 14 models (accurate)
+05:10:29.319137 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP-Hackathon.aggregated_Sales"}
+05:10:30.245935 [error]: dbt8995: Adapter operation was cancelled
+05:10:30.302939 [info ]: Cached model count updated: 14 models (estimate)
+05:10:30.327838 [info ]: Cached model count updated: 14 models (accurate)
+05:10:30.328008 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP-Hackathon.aggregated_Sales"}
+05:10:31.276095 [info ]: Cached model count updated: 14 models (accurate)
+05:11:59.098538 [info ]: Cached model count updated: 14 models (estimate)
+05:11:59.732311 [info ]: Cached model count updated: 14 models (estimate)
+05:11:59.835799 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+05:11:59.839070 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+05:11:59.841224 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+05:11:59.861888 [info ]: Cached model count updated: 14 models (accurate)
+05:12:00.310988 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+05:12:00.310977 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+05:12:00.311898 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+05:12:01.578753 [info ]: Cached model count updated: 14 models (accurate)
+05:12:21.608522 [info ]: Cached model count updated: 14 models (estimate)
+05:12:21.964910 [info ]: Cached model count updated: 14 models (estimate)
+05:12:22.020634 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+05:12:22.021992 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+05:12:22.022780 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+05:12:22.032000 [info ]: Cached model count updated: 14 models (accurate)
+05:12:22.226668 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+05:12:22.226668 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+05:12:22.227609 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+05:12:23.097108 [info ]: Cached model count updated: 14 models (accurate)
+05:12:56.273384 [info ]: Cached model count updated: 14 models (estimate)
+05:12:56.294571 [info ]: Cached model count updated: 14 models (accurate)
+05:12:56.294691 [debug]: Incremental compilation - 0 nodes selected: {}
+05:12:56.467116 [info ]: Cached model count updated: 14 models (accurate)
+05:13:03.479878 [info ]: Cached model count updated: 15 models (estimate)
+05:13:03.847578 [info ]: Cached model count updated: 15 models (estimate)
+05:13:03.895617 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+05:13:03.896909 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+05:13:03.897584 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+05:13:03.907201 [info ]: Cached model count updated: 15 models (accurate)
+05:13:04.127908 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+05:13:04.129926 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+05:13:04.130267 [info ]: Running Load Data from GCS CSV ["gs://roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+05:13:05.008584 [info ]: Cached model count updated: 15 models (accurate)
+05:13:05.524413 [info ]: Cached model count updated: 15 models (estimate)
+05:13:05.568916 [info ]: Cached model count updated: 15 models (estimate)
+05:13:05.590867 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/assignments_history.csv"] to table `gcp-hackathon-478810.roster.assignments_history`
+05:13:05.592071 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+05:13:05.593054 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/demand.csv"] to table `gcp-hackathon-478810.roster.demand`
+05:13:05.593957 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+05:13:05.594855 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+05:13:05.598543 [info ]: Cached model count updated: 15 models (accurate)
+05:13:05.598821 [debug]: Incremental compilation - 5 nodes selected: {"model.GCP-Hackathon.load_assignments_history", "model.GCP-Hackathon.load_availability", "model.GCP-Hackathon.load_demand", "model.GCP-Hackathon.load_employees", "model.GCP-Hackathon.load_shift_defs"}
+05:13:05.864007 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+05:13:05.864007 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/demand.csv"] to table `gcp-hackathon-478810.roster.demand`
+05:13:05.864007 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+05:13:05.864007 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+05:13:05.864061 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/assignments_history.csv"] to table `gcp-hackathon-478810.roster.assignments_history`
+05:13:05.884784 [info ]: Cached model count updated: 15 models (accurate)
+05:13:05.923915 [info ]: Cached model count updated: 15 models (estimate)
+05:13:05.924382 [info ]: Cached model count updated: 15 models (accurate)
+05:16:29.000009 [info ]: Cached model count updated: 15 models (estimate)
+05:16:29.020141 [info ]: Cached model count updated: 15 models (accurate)
+05:16:29.020314 [debug]: Incremental compilation - 2 nodes selected: {"model.GCP-Hackathon.aggregated_Sales", "model.GCP-Hackathon.stg_sales_history"}
+05:16:29.261147 [info ]: Cached model count updated: 15 models (accurate)
+05:16:29.320843 [info ]: Cached model count updated: 15 models (estimate)
+05:16:29.321166 [info ]: Cached model count updated: 15 models (accurate)
+05:17:59.919740 [info ]: Cached model count updated: 15 models (estimate)
+05:17:59.937895 [info ]: Cached model count updated: 15 models (accurate)
+05:17:59.938057 [debug]: Incremental compilation - 2 nodes selected: {"model.GCP-Hackathon.aggregated_Sales", "model.GCP-Hackathon.stg_sales_history"}
+05:18:00.115279 [info ]: Cached model count updated: 15 models (accurate)
+05:18:00.248142 [info ]: Cached model count updated: 15 models (estimate)
+05:18:00.248459 [info ]: Cached model count updated: 15 models (accurate)
+05:20:11.901680 [info ]: Cached model count updated: 16 models (estimate)
+05:20:12.310455 [info ]: Cached model count updated: 16 models (estimate)
+05:20:12.360492 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/assignments_history.csv"] to table `gcp-hackathon-478810.roster.assignments_history`
+05:20:12.361591 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+05:20:12.362337 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/demand.csv"] to table `gcp-hackathon-478810.roster.demand`
+05:20:12.363023 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+05:20:12.364098 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+05:20:12.374232 [info ]: Cached model count updated: 16 models (accurate)
+05:20:12.567345 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/demand.csv"] to table `gcp-hackathon-478810.roster.demand`
+05:20:12.567599 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/employees.csv"] to table `gcp-hackathon-478810.roster.employees`
+05:20:12.569207 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/assignments_history.csv"] to table `gcp-hackathon-478810.roster.assignments_history`
+05:20:12.569240 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/availability.csv"] to table `gcp-hackathon-478810.roster.availability`
+05:20:12.569718 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/shift_defs.csv"] to table `gcp-hackathon-478810.roster.shift_defs`
+05:20:13.377491 [info ]: Cached model count updated: 16 models (accurate)
+05:21:18.564860 [info ]: Cached model count updated: 16 models (estimate)
+05:21:18.581937 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/sales_data_3years.csv"] to table `gcp-hackathon-478810.roster.sales_history`
+05:21:18.584456 [info ]: Cached model count updated: 16 models (accurate)
+05:21:18.584611 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP-Hackathon.load_sales"}
+05:21:18.733018 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/sales_data_3years.csv"] to table `gcp-hackathon-478810.roster.sales_history`
+05:21:18.743604 [info ]: Cached model count updated: 16 models (accurate)
+05:21:18.890743 [info ]: Cached model count updated: 16 models (estimate)
+05:21:18.891085 [info ]: Cached model count updated: 16 models (accurate)
+16:07:11.554416 [info ]: Cached model count updated: 16 models (estimate)
+16:07:11.836354 [info ]: Cached model count updated: 16 models (estimate)
+16:07:11.938752 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/sales_data_3years.csv"] to table `gcp-hackathon-478810.roster.sales_history`
+16:07:11.981563 [info ]: Cached model count updated: 16 models (accurate)
+16:07:11.993448 [debug]: Incremental compilation - 1 nodes selected: {"model.GCP-Hackathon.load_sales"}
+16:07:12.456362 [info ]: Running Load Data from GCS CSV ["gs://supermarket_roster/raw/sales_data_3years.csv"] to table `gcp-hackathon-478810.roster.sales_history`
+16:07:12.592461 [info ]: Cached model count updated: 16 models (accurate)

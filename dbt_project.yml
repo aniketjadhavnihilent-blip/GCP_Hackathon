@@ -1,6 +1,34 @@
-name: 'GCP Hackathon'
-version: '1.0'
-profile: default
+name: 'GCP-Hackathon'
+version: '1.0.0'
 config-version: 2
-model-paths: ["models/staging"]
-target-path: "target"
+
+profile: 'roster' # This refers to a profile defined in your profiles.yml
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target" # directory to store compiled SQL and run artifacts
+clean-targets:        # directories to clean with `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+models:
+  GCP-Hackathon: # Namespace your model configs to your project name
+    # Example of specific model configurations
+    staging:
+      +materialized: table # Override for models in the 'staging' subdirectory
+      # +schema: staging
+    marts:
+      +materialized: table # Override for models in the 'marts' subdirectory
+      # +schema: marts
+      # +tags: ['data_mart'] # Add tags for easier selection
+
+# seeds:
+#   GCP-Hackathon:
+#     +quote_columns: false # Don't quote column names in seed files by default
+
+# vars:
+#   my_variable: 'some_value' # Define project-level variables

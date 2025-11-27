@@ -1,1 +1,14 @@
+roster:            # must match 'profile:' in dbt_project.yml
+  target: Prod
+  outputs:
+    Prod:
+      type: bigquery
+      method: service-account
+      project: gcp-hackathon-478810
+      dataset: roster  # dbt writes models here
+      threads: 4
+      keyfile: C:\Hackathon\gcp-hackathon-478810-9624c7308759.json
+      timeout_seconds: 300
+      location: us                    # or EU, asia-south1, etc.
+      priority: interactive           # or 'batch'
 

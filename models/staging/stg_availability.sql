@@ -1,0 +1,1 @@
+select * from `gcp-hackathon-478810.roster.availability`

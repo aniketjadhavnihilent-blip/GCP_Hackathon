@@ -1,5 +1,5 @@
 with raw as (
-  select * from `project.poc_roster.employees`
+  select * from `gcp-hackathon-478810.roster.employees`
 )
 select
   employee_id,
