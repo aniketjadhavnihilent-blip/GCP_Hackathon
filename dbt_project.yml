@@ -1,4 +1,4 @@
-name: 'GCP Hackathon'
+name: 'GCP_Hackathon'
 version: '1.0.0'
 config-version: 2
 
@@ -16,7 +16,7 @@ clean-targets:        # directories to clean with `dbt clean`
   - "dbt_packages"
 
 models:
-  GCP Hackathon: # Namespace your model configs to your project name
+  GCP_Hackathon: # Namespace your model configs to your project name
     # Example of specific model configurations
     staging:
       +materialized: table # Override for models in the 'staging' subdirectory

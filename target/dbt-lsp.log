@@ -434,3 +434,14 @@
 16:23:54.605515 [error]: dbt0407: Comparison failed: Comparison between STRING and INT64 with = operator is not supported
   --> models\marts\roster_features.sql:26:35
 16:23:54.648768 [info ]: Cached model count updated: 16 models (accurate)
+17:28:01.118206 [info ]: Cached model count updated: 16 models (estimate)
+17:28:01.202669 [info ]: Cached model count updated: 16 models (accurate)
+17:28:01.202872 [debug]: Incremental compilation - 4 nodes selected: {"model.GCP-Hackathon.roster_features", "model.GCP-Hackathon.stg_assignments_history", "model.GCP-Hackathon.stg_availability", "model.GCP-Hackathon.stg_employees"}
+17:28:01.473976 [info ]: Cached model count updated: 16 models (estimate)
+17:28:01.537239 [info ]: Cached model count updated: 16 models (accurate)
+17:28:01.537463 [debug]: Incremental compilation - 4 nodes selected: {"model.GCP-Hackathon.roster_features", "model.GCP-Hackathon.stg_assignments_history", "model.GCP-Hackathon.stg_availability", "model.GCP-Hackathon.stg_employees"}
+17:28:01.748265 [error]: dbt0407: Comparison failed: Comparison between STRING and INT64 with = operator is not supported
+  --> models\marts\roster_features.sql:26:35
+17:28:01.769884 [info ]: Cached model count updated: 16 models (accurate)
+05:51:57.138274 [info ]: Cached model count updated: 16 models (estimate)
+05:51:57.451097 [info ]: Cached model count updated: 16 models (estimate)
